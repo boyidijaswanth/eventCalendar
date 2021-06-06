@@ -1,0 +1,39 @@
+{
+    "database":
+    {
+        "host": "localhost",
+        "port": 5433,
+        "db": "test",
+        "username": "postgres",
+        "password": "Password@123"
+    },
+    "app":
+    {
+        "port": 7000
+    },
+    "rest":
+    {
+        "successfulStatus": 200,
+        "baddataStatus": 422,
+        "successfullMessage":
+        {
+            "status": "SUCCESS",
+            "message": "Request Successfull"
+        },
+        "failureMessage":
+        {
+            "status": "FAILED",
+            "message": "Request Failed"
+        }
+    },
+    "weekday":
+    {
+        "monday": 1,
+        "tuesday": 2,
+        "wednesday": 3,
+        "thursday": 4,
+        "friday": 5,
+        "saturday": 6,
+        "sunday": 7
+    }
+}
